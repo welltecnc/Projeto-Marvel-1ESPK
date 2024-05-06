@@ -40,5 +40,11 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom: 3px solid var(--second-color);
 }
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+    color:var(--text-color2);
+}
+
 
 
