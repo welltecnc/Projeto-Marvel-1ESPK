@@ -1,0 +1,44 @@
+:root{
+   --text-color1:#000;
+   --text-color2:#fff;
+   --main-color:yellow;
+   --bg-color: #000137;
+   --second-color:#EFFD5F;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 40px 60px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+nav ul li a{
+    color:var(--text-color2);
+    font-size: 1rem;
+    transition:  all 0.1s ease;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid var(--second-color);
+}
+
+
