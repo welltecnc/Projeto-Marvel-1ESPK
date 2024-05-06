@@ -124,5 +124,38 @@ section{
 
     }
 }
+/*Medidor de estatistica automático*/
 
+#sobre{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.medicao{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 6rem 6rem 3rem;
+    padding: 2rem;
+    gap:2rem;
+}
+
+.medicao-item{
+    width: 25%;
+}
+.medicao-item span{
+    font-size: 3rem;
+    color:var(--second-color);
+}
+.medicao-item h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:var(--text-color2);
+    margin-top: 1rem;
+}
+.medicao-item p{
+    color:var(--second-color);
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
 
